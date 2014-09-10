@@ -1,4 +1,4 @@
-package com.example.lyndon.lyndondemo;
+package com.example.lyndon.lyndondemoA2;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 import android.widget.TextView;
+
+import com.example.lyndon.lyndondemo.R;
 //
 
 public class DisplayMessageActivity extends Activity {

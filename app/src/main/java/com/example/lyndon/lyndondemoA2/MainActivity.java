@@ -1,4 +1,4 @@
-package com.example.lyndon.lyndondemo;
+package com.example.lyndon.lyndondemoA2;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.view.MenuInflater;
+
+import com.example.lyndon.lyndondemo.R;
 
 
 public class MainActivity extends Activity {
