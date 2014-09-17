@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.view.MenuInflater;
 
-import com.example.lyndon.lyndondemo.R;
 
 
 public class MainActivity extends Activity {
@@ -19,6 +18,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
 
@@ -39,11 +40,22 @@ public class MainActivity extends Activity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        //int id = item.getItemId();
+        //if (id == R.id.action_settings) {
+        //    return true;
+        //}
+        //return super.onOptionsItemSelected(item);
+
+        switch (item.getItemId()) {
+            case R.id.action_search:
+                openSearch(); // Created blank methods for these 2
+                return true;
+            case R.id.action_settings:
+                openSettings(); // Here!
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
 
 
@@ -57,4 +69,14 @@ public class MainActivity extends Activity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    public void openSearch()
+    {
+
+    }
+
+    public void openSettings(){
+
+    }
+
 }
