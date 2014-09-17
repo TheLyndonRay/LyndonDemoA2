@@ -33,10 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45c79002-4374-49e1-a8b9-deae2042aefa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LyndonDemo.iws" />
@@ -103,8 +99,8 @@
       <file leaf-file-name="ab_background_textured_darkandpurple.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ab_background_textured_darkandpurple.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73434126" vertical-offset="0" max-vertical-offset="463">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.51403886" vertical-offset="0" max-vertical-offset="463">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -1758,7 +1754,11 @@
       <created>1410910412345</created>
       <updated>1410910412345</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added background for menu bar, figured out some picture refs">
+      <created>1410970464510</created>
+      <updated>1410970464510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1817,7 +1817,8 @@
     <MESSAGE value="6th commit - Random testing" />
     <MESSAGE value="2nd commit - Created a new package with the A2 suffix and copied the classes over.  The original package actually deleted itself. Also, renamed the package name in the manifest." />
     <MESSAGE value="4 files changed - Updating from home PC" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 files changed - Updating from home PC" />
+    <MESSAGE value="Added background for menu bar, figured out some picture refs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added background for menu bar, figured out some picture refs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2266,8 +2267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ab_background_textured_darkandpurple.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73434126" vertical-offset="0" max-vertical-offset="463">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.51403886" vertical-offset="0" max-vertical-offset="463">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
       </provider>
