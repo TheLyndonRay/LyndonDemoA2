@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lyndon.lyndondemoA2" >
 
-    <uses-sdk android:minSdkVersion="11"/>
 
     <application
         android:allowBackup="true"
