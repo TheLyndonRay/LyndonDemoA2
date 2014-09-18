@@ -4,7 +4,7 @@
     <style name="AppTheme"
         parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:windowActionBarOverlay">true</item> <!-- THIS MAKES THE ACTION BAR OVERLAY FOR SOME REASON -->
-        <item name="android:background">@drawable/worksafe3</item>
+
     </style>
 
     <!-- the theme applied to the application or activity -->
