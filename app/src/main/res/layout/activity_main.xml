@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/worksafe2"
-    android:paddingTop="?android:attr/actionBarSize"
+
     android:orientation="horizontal">
     <EditText android:id="@+id/edit_message"
         android:layout_weight="1"

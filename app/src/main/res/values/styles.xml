@@ -3,7 +3,28 @@
     <!-- Base application theme. -->
     <style name="AppTheme"
         parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item> <!-- THIS MAKES THE ACTION BAR OVERLAY FOR SOME REASON -->
+        <item name="android:background">@drawable/worksafe3</item>
+    </style>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_background_textured_darkandpurple</item> <!-- Background texture location of location -->
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
     </style>
 
 </resources>

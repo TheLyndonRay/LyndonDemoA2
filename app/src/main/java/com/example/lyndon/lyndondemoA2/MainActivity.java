@@ -26,13 +26,13 @@ public class MainActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        // getMenuInflater().inflate(R.menu.main, menu);
-        // return true;
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
 
-        // for the new menu?
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_activity_actions, menu);
-        return super.onCreateOptionsMenu(menu);
+        // This is for the fancy menu, should only be used in the god damn Display Message Activity
+        // MenuInflater inflater = getMenuInflater();
+        // inflater.inflate(R.menu.main_activity_actions, menu);
+        //return super.onCreateOptionsMenu(menu);
     }
 
     @Override
