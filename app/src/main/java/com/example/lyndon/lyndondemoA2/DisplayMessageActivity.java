@@ -1,10 +1,11 @@
 package com.example.lyndon.lyndondemoA2;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.content.Intent;
 import android.widget.TextView;
 
 
@@ -36,8 +37,12 @@ public class DisplayMessageActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.display_message, menu);
-        return true;
+        // getMenuInflater().inflate(R.menu.display_message, menu);
+        // return true;
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity_actions, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
