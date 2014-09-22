@@ -3,8 +3,6 @@
     <!-- Base application theme. -->
     <style name="AppTheme"
         parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:windowActionBarOverlay">true</item> <!-- THIS MAKES THE ACTION BAR OVERLAY FOR SOME REASON -->
-
     </style>
 
     <!-- the theme applied to the application or activity -->
@@ -19,6 +17,7 @@
         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/ab_background_textured_darkandpurple</item> <!-- Background texture location of location -->
         <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:windowActionBarOverlay">true</item> <!-- THIS MAKES THE ACTION BAR OVERLAY FOR SOME REASON -->
     </style>
 
     <!-- ActionBar title text -->
