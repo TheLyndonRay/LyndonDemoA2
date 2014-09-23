@@ -1,6 +1,7 @@
 package com.example.lyndon.lyndondemoA2;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.view.MenuInflater;
-
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -72,10 +73,22 @@ public class MainActivity extends Activity {
 
     public void openSearch()
     {
+        Context context = getApplicationContext();
+        CharSequence text = "Quickman is the Search";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
 
     }
 
     public void openSettings(){
+        Context context = getApplicationContext();
+        CharSequence text = "Settings was pressed";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
 
     }
 
