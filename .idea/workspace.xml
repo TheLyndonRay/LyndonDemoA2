@@ -33,10 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45c79002-4374-49e1-a8b9-deae2042aefa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LyndonDemo.iws" />
@@ -1199,8 +1195,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="37" />
+    <option name="x" value="26" />
+    <option name="y" value="47" />
     <option name="width" value="1598" />
     <option name="height" value="868" />
   </component>
@@ -1777,11 +1773,15 @@
       <created>1411149921030</created>
       <updated>1411149921030</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Don't know what I changed!">
+      <created>1411425349243</created>
+      <updated>1411425349243</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="37" width="1598" height="868" extended-state="0" />
+    <frame x="26" y="47" width="1598" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1838,7 +1838,8 @@
     <MESSAGE value="4 files changed - Updating from home PC" />
     <MESSAGE value="Added background for menu bar, figured out some picture refs" />
     <MESSAGE value="Quickman wasn't appearing before in the display message action bar. HE IS NOW THOUGH!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quickman wasn't appearing before in the display message action bar. HE IS NOW THOUGH!" />
+    <MESSAGE value="Don't know what I changed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't know what I changed!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
