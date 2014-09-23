@@ -15,7 +15,9 @@
     <!-- ActionBar styles -->
     <style name="MyActionBar"
         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ab_background_textured_darkandpurple</item> <!-- Background texture location of location -->
+        <!-- <item name="android:background">@drawable/ab_background_textured_darkandpurple</item> --> <!-- Background texture location of location -->
+        <!-- <item name="android:background">@drawable/ab_transparent_darkandpurple</item> --> <!-- Background transparent image -->
+        <item name="android:background">@color/actionbar_transparent_color</item> <!-- Trying to make the whole thing see through but with some color, FIRST 2 IS OPACITY, NEXT 6 ARE HEX COLORS -->
         <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
         <item name="android:windowActionBarOverlay">true</item> <!-- THIS MAKES THE ACTION BAR OVERLAY FOR SOME REASON -->
     </style>
