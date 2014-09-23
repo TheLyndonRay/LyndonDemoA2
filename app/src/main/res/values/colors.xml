@@ -1,3 +1,4 @@
 <resources>
-    <color name="actionbar_text">#ffed98e2</color>
+    <color name="actionbar_text">#ffffffff</color>
+    <color name="actionbar_transparent_color">#737738ae</color>
 </resources>
